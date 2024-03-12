@@ -1,0 +1,64 @@
+.problem{
+    max-width: 1500px;
+    width: 100vw;
+    height: 50vw;
+}
+
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #191970;
+}
+
+.nav{
+    width: 30%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    font-family: sans-serif;
+    color: #191970;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    position: relative;
+}
+
+p{
+    margin-top: 430px;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+.img img{
+    width: 100%;
+}
+
+.img{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin: 0 0 0 auto;
+    text-align: center;
+    width: 50%;
+    z-index: 10;
+}
+
+.navy{
+    background-color: #191970;
+    width: 75%;
+    padding: 100px 0;
+    z-index: 0;
+}
