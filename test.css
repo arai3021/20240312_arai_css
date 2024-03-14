@@ -1,19 +1,20 @@
-.problem{
+body{
     max-width: 1500px;
-    width: 100vw;
-    height: 50vw;
 }
 
 .header{
-    padding: 20px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    margin: 20px auto;
 }
 
 .title{
+    color: navy;
     font-size: 25px;
+    font-weight: bold;
     font-family: sans-serif;
-    color: #191970;
+    margin-left: 20px;
 }
 
 .nav{
@@ -26,20 +27,14 @@ ul{
 }
 
 li{
-    font-family: sans-serif;
-    color: #191970;
+    color: navy;
+    font-size: 15px;
     font-weight: bold;
+    font-family: sans-serif;
 }
 
 .flex{
     display: flex;
-    position: relative;
-}
-
-p{
-    margin-top: 430px;
-    font-size: 70px;
-    font-family: sans-serif;
 }
 
 .img img{
@@ -47,18 +42,33 @@ p{
 }
 
 .img{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    margin: 0 0 0 auto;
-    text-align: center;
     width: 50%;
+    height: 50%;
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+    right: 0;
     z-index: 10;
+    position: relative;
+    top: 50%;
+    transform: translateY(25%);
+}
+
+p{
+    display: flex;
+    align-items: flex-end;
+    font-size: 70px;
+    font-family: sans-serif;
 }
 
 .navy{
-    background-color: #191970;
+    background-color: navy;
     width: 75%;
+    height: 25%;
     padding: 100px 0;
+    margin-left: 0px;
     z-index: 0;
 }
+
+
+
